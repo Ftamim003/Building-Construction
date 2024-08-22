@@ -12,6 +12,9 @@
       <!-- DaisyUI CDN -->
       <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font awesome CDN -->
+  <script src="https://kit.fontawesome.com/4bcb7772bd.js" crossorigin="anonymous"></script>
   
   <style>
       .font-poppins{
@@ -25,8 +28,9 @@
           extend: {
             colors: {
               clifford: '#da373d',
-              'bike-primary': 'rgb(231, 111, 81)',
-              'bike-primary-bg': 'rgba(231, 111, 81, 0.1)',
+              'arrow-bg': 'rgb(171, 239, 95)', 
+              'black-bg': 'rgb(28, 28, 28)',
+              'background':'rgba(255, 255, 255, 0)',
             }
           }
         }
@@ -34,6 +38,68 @@
     </script>
 </head>
 <body>
-    <button class="btn ">Hello</button>
+    
+    <!-- Header section -->
+     <header class=" p-3 lg:container mx-auto bg-background ">
+        <nav class="">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start flex items-center">
+                    <i class="fa-solid fa-arrow-right -rotate-45 bg-arrow-bg rounded-full p-2"></i>
+
+                  <a class="btn btn-ghost font-bold text-3xl">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="text-gray-600 font-bold text-xl"><a>Home</a></li>
+                    <li class="text-gray-500 text-xl"><a>Service</a></li>
+                    <li class="text-gray-500 text-xl"><a>Portfolio</a></li>
+                    <li class="text-gray-500 text-xl"><a>Blogs</a></li>
+                    <li class="text-gray-500 text-xl"><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end gap-2">
+                    <i class="fa-solid fa-magnifying-glass hidden lg:flex bg-white"></i>
+                    <i class="fa-solid fa-cart-shopping ml-2 mr-3 hidden lg:flex bg-white"></i>
+                  <button class="hidden lg:flex"><a class="bg-arrow-bg py-2 px-5 rounded-full font-bold ">Book Consult  <i class="fa-solid fa-arrow-right -rotate-45 bg-black-bg text-white rounded-full p-2 ml-1" ></i> </a></button>
+                  <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+                      <li><a>Service</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+     </header>
+
+     
+      <!-- Main section -->
+      <main>
+
+      </main>
+
+      <!-- Footer section -->
+       <footer>
+
+       </footer>
 </body>
 </html>
