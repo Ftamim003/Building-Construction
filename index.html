@@ -34,6 +34,7 @@
               'yellow-bg': 'rgb(239, 218, 110)',
               'green-bg': 'rgb(164, 218, 195)',
               'blue-bg': 'rgb(119, 170, 234)',
+              'green-rgb':'rgba(171, 239, 95, 0.2)',
               'background-color':'linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%)',
             
             }
@@ -108,9 +109,13 @@
            <!-- Design Section -->
            <div class="bg-base-200 p-4">
             <div class="justify-center items-center  lg:flex lg:p-24 lg:container mx-auto">
-                <div class="hidden lg:flex absolute left-52 top-full"><img  src="assets/Vector.png" alt=""></div>
+              
                <div class=""> 
-                <div class=" flex justify-center lg:flex lg:justify-start mb-5">
+                <div class=" flex justify-center lg:flex lg:justify-start mb-5 relative">
+                  <div class="hidden lg:flex absolute -left-11 -top-14 w-32 lg:w-42">
+                    <img src="assets/Vector.png" alt="" class="w-full h-auto">
+                  </div>
+                  
                     <button >
                         <a class="bg-white py-2 px-5 rounded-full font-bold "> 
                             <i class="fa-solid fa-arrow-right text-black rounded-full mr-2" >
@@ -157,7 +162,7 @@
           <!-- Work process section -->
          
           <div class=" bg-base-200 p-4">
-            <div class=" flex justify-center items-center lg:container mx-auto mb-5">
+            <div class=" flex justify-center items-center lg:container mx-auto mb-9">
                 <button >
                     <a class="bg-white py-2 px-5 rounded-full font-bold "> 
                         <i class="fa-solid fa-arrow-right text-black rounded-full mr-2" >
@@ -171,7 +176,7 @@
                <p class="py-7 lg:px-64 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
 
             
-               <div class="lg:justify-center lg:flex gap-5 lg:container mx-auto mt-5">
+               <div class="lg:justify-center lg:flex gap-5 lg:container mx-auto mt-5 mb-5">
                 <div class="card bg-base-100 lg:w-80 h-60 bg-pink-bg mb-5">
                   <div class="flex justify-start ml-7 pt-7">
                     <figure>
@@ -236,7 +241,71 @@
              
           </div>
                 
-          
+          <!-- Latest Portfolio section -->
+          <div class=" flex justify-center items-center lg:container mx-auto mb-9 mt-16">
+                  <button >
+                        <a class="bg-green-rgb py-2 px-5 rounded-full font-bold "> 
+                          <i class="fa-solid fa-arrow-right text-black rounded-full mr-2" >
+
+                          </i>Explore our latest works
+                         </a>
+                  </button>
+            </div>
+      
+           <h1 class="text-3xl lg:text-5xl font-bold text-center"> Our Latest Portfolio</h1>
+           <p class="py-7 lg:px-64 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+          <!-- Top layer -->
+        <div class="justify-center items-center lg:flex gap-5 lg:container mx-auto mt-5 p-4 lg:py-1 lg:px-16">
+              
+            
+            <div class="lg:flex lg:gap-5 justify-center mt-5">
+                <div class="lg:flex border p-3 rounded-xl mb-1">
+                  <div class="flex justify-center"> <img src="assets/img1.png" alt="" class="w-80 "></div>
+                       <div class="ml-5 space-y-5">
+                         <h1 class="font-bold text-2xl lg:text-left px-8 mt-3">Commercial</h1>
+                         <p class="text-gray-600 px-8 mt-3">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                         <button class="text-lg font-bold px-8 mt-3">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-arrow-bg rounded-full p-1.5"></i></button>
+                      </div>
+                </div>
+
+                 <div class="border p-4 rounded-xl flex items-center mb-1" >
+                     <img src="assets/img2.png" alt="" class="w-full">
+                 </div>
+            </div>
+
+        </div>
+
+            
+        
+        
+        <!-- Second Layer -->
+        <div class="flex  justify-center items-center lg:container mx-auto mt-0 mb-9 p-4 lg:py-1 lg:px-16">
+          <div class="lg:flex gap-5 flex-row-reverse">
+
+            <div class="border py-4 lg:p-4 rounded-xl flex justify-center mb-1" >
+              <img src="assets/img5.png" alt="" class="w-80">
+            </div>
+            <div class="w-full lg:flex border p-3 rounded-xl mb-1">
+               <div class="flex justify-center"><img src="assets/img4.png" alt="" class="w-80"></div>
+                   <div class="ml-5 space-y-4">
+                     <h1 class="font-bold text-2xl px-8 mt-3">Commercial</h1>
+                     <p class="text-gray-600 px-8 mt-3">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                     <button class="text-lg font-bold px-8 mt-3">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-arrow-bg rounded-full p-1.5"></i></button>
+                    </div>
+            </div>
+  
+             <div class="border py-4 lg:p-4 rounded-xl flex justify-center mb-1" >
+                 <img src="assets/img3.png" alt="" class="w-80">
+             </div>
+
+             <div class="lg:hidden border py-4 lg:p-4 rounded-xl flex justify-center" >
+              <img src="assets/img5.png" alt="" class="w-80">
+             </div>
+        </div>
+        </div>
+
+
 
       </main>
 
