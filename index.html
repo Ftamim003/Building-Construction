@@ -35,6 +35,9 @@
               'green-bg': 'rgb(164, 218, 195)',
               'blue-bg': 'rgb(119, 170, 234)',
               'green-rgb':'rgba(171, 239, 95, 0.2)',
+              'black-bg':'rgb(28, 28, 28)',
+              'footer-text':'rgb(115, 115, 115)',
+              'footer-text-white':'rgb(233, 233, 233)',
               'background-color':'linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%)',
             
             }
@@ -308,7 +311,7 @@
 
           
         <!-- Form Section -->
-        <div class="pt-9 mb-9 bg-no-repeat bg-cover" style="background-image: url(assets/bg.jpg) ">
+        <div class="pt-9 lg:mb-9 bg-no-repeat bg-cover" style="background-image: url(assets/bg.jpg) ">
           <div class="flex justify-center container mx-auto pb-7"  >
             <button >
               <a class="bg-green-rgb py-2 px-5 rounded-full font-bold "> 
@@ -352,8 +355,27 @@
       </main>
 
       <!-- Footer section -->
-       <footer>
-
+       <footer class="bg-black-bg ">
+        <div class="flex justify-center ">
+          <button class=" w-full md:w-52 py-2 px-5 rounded-full font-bold text-white lg:mt-24 "> <i class="fa-solid fa-arrow-right -rotate-45 bg-arrow-bg rounded-full p-2 mr-1 text-black"></i> <span class="text-3xl">Rentario</span> </i></button>
+        </div>
+        
+        <p class="pt-7 px-4 lg:px-96 text-center text-footer-text lg:pb-3">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+         
+        <div class="navbar-center flex  lg:flex lg:flex-row  justify-center items-center text-footer-text-white mt-9">
+          <ul class=" flex flex-col lg:flex lg:flex-row pb-7 lg:space-x-32 justify-center text-center">
+            <li class= " text-xl pb-3"><a>Home</a></li>
+            <li class=" text-xl pb-3"><a>Service</a></li>
+            <li class=" text-xl pb-3"><a>Portfolio</a></li>
+            <li class="text-xl pb-3"><a>Blogs</a></li>
+            <li class=" text-xl pb-1"><a>Contact Us</a></li>
+          </ul>
+        </div>
+         
+        <div class=" mt-2 p-4 flex justify-center">
+          <button type="button" class="w-full lg:w-56 bg-arrow-bg py-2 px-5 rounded-full font-bold border border-arrow-bg text-lg">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-black-bg text-white rounded-full p-2 ml-1"></i></button>
+        </div>
+        
        </footer>
 </body>
 </html>
